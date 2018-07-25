@@ -1,0 +1,69 @@
+/*** CSS global ***/
+body{
+	background: #FFFFFF;
+	font-family: 'FuturaStd Book';
+	top: 0;
+    margin: 0;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.slider-container {
+	background: #F5F3F4;
+    display: block;
+    width: 100%;
+}
+
+.slider-container img {
+	margin: auto;
+    display: block;
+    width: 92%;
+}
+
+.product-info {
+	position: absolute;
+	display: flex;
+    /*border: 2px solid transparent;*/
+    width: 37%;
+    height: auto;
+    margin: 1em;
+    top: 33%;
+    background: #FFFFFF;
+    /*padding: 0.70em;*/
+	-webkit-box-shadow: -5px -5px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: -5px -5px 15px 0px rgba(0,0,0,0.5);
+	-o-box-shadow: -5px -5px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: -5px -5px 15px 0px rgba(0,0,0,0.5);
+}
+div.info {
+	background: #FFFFFF;
+	padding: 1em 0 0.30em 3em;
+	width: 70%;
+	float: left;
+}
+div.info div.product-name {
+	color: #73C2C6;
+	font-size: 1.8em;
+	padding: 0.25em;
+}
+div.info div.product-desc {
+	color: #adadad;
+	font-size: 0.90em;
+	margin: 0 0 0.30em 0;
+}
+div.product-price {
+	background: #73C2C6;
+	color: #FFFFFF;
+	width: 29%;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	padding: 1.55em 0;
+}
+div.product-price span.a-partir-de {
+	font-size: 0.90em;
+}
+div.product-price span.price {
+	font-size: 2.3em;	
+}
+
